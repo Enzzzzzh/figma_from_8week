@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Intro Black";
+  src: url("Intro-Black.eot");
+  src: url("Intro-Black.eot?#iefix") format("embedded-opentype"),
+    url("Intro-Black.woff") format("woff"),
+    url("Intro-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* roboto-slab-300 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-slab-v34-cyrillic_latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/image/backgrd.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header_browser {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.131);
+}
+.image_browser {
+  position: absolute;
+}
+.header_browser-text {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+}
+a {
+  color: rgba(0, 0, 0, 0.303);
+  text-decoration: none;
+}
+.navbar-dark .navbar-brand {
+  color: black;
+  font-family: "Intro Black";
+}
+.header_button {
+  width: 115px;
+  height: 38px;
+  top: 89px;
+  left: 1251px;
+}
+.button_basket {
+  font-family: "Intro Black";
+}
+.btn-primary {
+  color: #fff;
+  background-color: #5222d0;
+  border-color: #5222d0;
+  border-radius: 100px;
+}
+.mail_container {
+  width: 542px;
+  height: 216px;
+  top: 206px;
+  left: 126px;
+  padding-bottom: 6;
+}
+.text_mail {
+  font-family: "Intro Black";
+  font-size: 60px;
+  line-height: 72px;
+}
+.aside_container {
+  width: 487px;
+  height: 96px;
+  top: 432px;
+  left: 126px;
+}
+.aside_text {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#button_container {
+  margin-top: 30px;
+  width: 270px;
+  height: 84px;
+  top: 558px;
+  left: 116px;
+  font-family: "Intro Black";
+  font-size: 35px;
+}
+.footer {
+  position: fixed;
+  bottom: 5vh;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  left: 164px;
+  background-color: rgba(255, 255, 255, 0.631);
+}
+.nav-item {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  line-height: 32px;
+  text-decoration: none;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #5222d0;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.title-text_cards {
+  margin-top: 30%;
+  font-family: "Intro Black";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 5%;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 2rem;
+  height: 100%;
+}
+.title-of-card {
+  font-family: "Intro Black";
+  font-size: 30px;
+  line-height: 36px;
+}
+.text-of-card {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.first_card {
+  border: 1px solid red;
+  padding: 20px 20px 0 20px;
+}
+.first_body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+.card {
+  border: none;
+}
+.last_card {
+  background-color: #ec615b;
+}
+.last_card_title {
+  color: white;
+}
+.button_save {
+  font-family: "Intro Black";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#last_wrapper {
+  height: 100vh;
+}
